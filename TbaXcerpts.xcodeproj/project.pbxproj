@@ -15,6 +15,13 @@
 		9C6A6EB02453BEC800AB8CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A6EAE2453BEC800AB8CBD /* LaunchScreen.storyboard */; };
 		9C6A6EBB2453BEC900AB8CBD /* TbaXcerptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6EBA2453BEC900AB8CBD /* TbaXcerptsTests.swift */; };
 		9C6A6EC62453BEC900AB8CBD /* TbaXcerptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6EC52453BEC900AB8CBD /* TbaXcerptsUITests.swift */; };
+		9C6A6ED42453BEE100AB8CBD /* TubaContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6ED32453BEE100AB8CBD /* TubaContentModel.swift */; };
+		9C6A6ED62453BF3100AB8CBD /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6ED52453BF3100AB8CBD /* MoreView.swift */; };
+		9C6A6EDA2453BF7400AB8CBD /* ComposerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6ED92453BF7400AB8CBD /* ComposerListView.swift */; };
+		9C6A6EDC2453BF9F00AB8CBD /* ComposerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6EDB2453BF9F00AB8CBD /* ComposerDetailView.swift */; };
+		9C6A6EDE2453BFE100AB8CBD /* CompositionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6EDD2453BFE100AB8CBD /* CompositionListView.swift */; };
+		9C6A6EE02453BFFB00AB8CBD /* CompositionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A6EDF2453BFFB00AB8CBD /* CompositionDetailView.swift */; };
+		9CD9483F24562FD1005765B0 /* RandomCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD9483E24562FD1005765B0 /* RandomCompositionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		9C6A6EC12453BEC900AB8CBD /* TbaXcerptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TbaXcerptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6A6EC52453BEC900AB8CBD /* TbaXcerptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TbaXcerptsUITests.swift; sourceTree = "<group>"; };
 		9C6A6EC72453BEC900AB8CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6A6ED32453BEE100AB8CBD /* TubaContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubaContentModel.swift; sourceTree = "<group>"; };
+		9C6A6ED52453BF3100AB8CBD /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		9C6A6ED92453BF7400AB8CBD /* ComposerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerListView.swift; sourceTree = "<group>"; };
+		9C6A6EDB2453BF9F00AB8CBD /* ComposerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDetailView.swift; sourceTree = "<group>"; };
+		9C6A6EDD2453BFE100AB8CBD /* CompositionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionListView.swift; sourceTree = "<group>"; };
+		9C6A6EDF2453BFFB00AB8CBD /* CompositionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionDetailView.swift; sourceTree = "<group>"; };
+		9CD9483E24562FD1005765B0 /* RandomCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCompositionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,13 @@
 		9C6A6EA22453BEC300AB8CBD /* TbaXcerpts */ = {
 			isa = PBXGroup;
 			children = (
+				9C6A6EA72453BEC300AB8CBD /* ContentView.swift */,
+				9C6A6ED32453BEE100AB8CBD /* TubaContentModel.swift */,
+				9C6A6ED52453BF3100AB8CBD /* MoreView.swift */,
+				9C6A6ED82453BF6200AB8CBD /* CompositionViews */,
+				9C6A6ED72453BF5A00AB8CBD /* ComposerViews */,
 				9C6A6EA32453BEC300AB8CBD /* AppDelegate.swift */,
 				9C6A6EA52453BEC300AB8CBD /* SceneDelegate.swift */,
-				9C6A6EA72453BEC300AB8CBD /* ContentView.swift */,
 				9C6A6EA92453BEC800AB8CBD /* Assets.xcassets */,
 				9C6A6EAE2453BEC800AB8CBD /* LaunchScreen.storyboard */,
 				9C6A6EB12453BEC800AB8CBD /* Info.plist */,
@@ -134,6 +152,25 @@
 				9C6A6EC72453BEC900AB8CBD /* Info.plist */,
 			);
 			path = TbaXcerptsUITests;
+			sourceTree = "<group>";
+		};
+		9C6A6ED72453BF5A00AB8CBD /* ComposerViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A6ED92453BF7400AB8CBD /* ComposerListView.swift */,
+				9C6A6EDB2453BF9F00AB8CBD /* ComposerDetailView.swift */,
+			);
+			path = ComposerViews;
+			sourceTree = "<group>";
+		};
+		9C6A6ED82453BF6200AB8CBD /* CompositionViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A6EDD2453BFE100AB8CBD /* CompositionListView.swift */,
+				9C6A6EDF2453BFFB00AB8CBD /* CompositionDetailView.swift */,
+				9CD9483E24562FD1005765B0 /* RandomCompositionView.swift */,
+			);
+			path = CompositionViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD9483F24562FD1005765B0 /* RandomCompositionView.swift in Sources */,
 				9C6A6EA42453BEC300AB8CBD /* AppDelegate.swift in Sources */,
+				9C6A6ED42453BEE100AB8CBD /* TubaContentModel.swift in Sources */,
+				9C6A6EE02453BFFB00AB8CBD /* CompositionDetailView.swift in Sources */,
 				9C6A6EA62453BEC300AB8CBD /* SceneDelegate.swift in Sources */,
+				9C6A6EDC2453BF9F00AB8CBD /* ComposerDetailView.swift in Sources */,
 				9C6A6EA82453BEC300AB8CBD /* ContentView.swift in Sources */,
+				9C6A6EDA2453BF7400AB8CBD /* ComposerListView.swift in Sources */,
+				9C6A6ED62453BF3100AB8CBD /* MoreView.swift in Sources */,
+				9C6A6EDE2453BFE100AB8CBD /* CompositionListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
