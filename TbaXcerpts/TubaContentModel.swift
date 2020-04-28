@@ -167,7 +167,14 @@ let brahmsTragic = Composition(id: 9, composer: "Johannes Brahms", composerLast:
 
 let bruckner4 = Composition(id: 10, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 4", date: "1874", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 28, description: "Excerpt 1", measures: "Mov. I, [D] - mm. 150", pictures: [["Tuba", "1030"]]),
-    Excerpt(id: 29, description: "Excerpt 2", measures: <#T##String#>, pictures: <#T##[[String]]#>)
+    Excerpt(id: 29, description: "Excerpt 2", measures: "Mov. I, [I] - [K] ", pictures: [["Tuba", "1031"]]),
+    Excerpt(id: 30, description: "Excerpt 3", measures: "Mov. I, [N] - [O] ", pictures: [["Tuba", "1032"]]),
+    Excerpt(id: 31, description: "Excerpt 4", measures: "Mov. I, mm. 479 - 491", pictures: [["Tuba", "1033"]]),
+    Excerpt(id: 32, description: "Excerpt 5", measures: "Mov. III, mm. 71 - 91", pictures: [["Tuba", "1034"]]),
+    Excerpt(id: 33, description: "Excerpt 6", measures: "Mov. IV, mm. 43 - 53", pictures: [["Tuba", "1035"]]),
+    Excerpt(id: 34, description: "Excerpt 7", measures: "Mov. IV, mm. 167 - 182", pictures: [["Tuba", "1036"]]),
+    Excerpt(id: 35, description: "Excerpt 8", measures: "Mov. IV, [M] - [O] ", pictures: [["Tuba", "1037"]]),
+    Excerpt(id: 36, description: "Excerpt 9", measures: "Mov. IV, [P] - [Q]", pictures: [["Tuba", "1038"]])
 ], mutes: "", videos: [
     ["Claudio Abbado, Wiener Philharmoniker", "gcBg-tXn0fs"],
     ["Daniel Barenboim, Royal Concertgebouw Orchestra", "xdv-9RFZX2w"],
@@ -176,6 +183,50 @@ let bruckner4 = Composition(id: 10, composer: "Anton Bruckner", composerLast: "B
     ["Herbert von Karajan, Berliner Philharmoniker", "rCvOXwgOvOo"],
     ["Sergiu Celibidache, Münchner Philharmoniker", "LY7m119eOys"],
     ["Stanislaw Skrowaczewski, Orquesta Sinfónica de Galicia", "P_BXBiHtIGM"]
+])
+
+let bruckner7 = Composition(id: 37, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1881", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 38, description: "Excerpt 1", measures: "Mov. I, 10 mm. after [A] - 7 mm. before [B] ", pictures: [["Tuba", "1039"]]),
+    Excerpt(id: 39, description: "Excerpt 2", measures: "Mov. I, mm. 127 - 130", pictures: [["Tuba", "1040"]]),
+    Excerpt(id: 40, description: "Excerpt 3", measures: "Mov. I, 2 mm. after [M] - [N]", pictures: [["Tuba", "1041"]]),
+    Excerpt(id: 41, description: "Excerpt 4", measures: "Mov. II, [X] - [Y]", pictures: [["Tuba", "1042"]]),
+    Excerpt(id: 42, description: "Excerpt 5", measures: "Mov. III, 8 mm. after [C] - 3 mm. before [D]", pictures: [["Tuba", "1043"]]),
+    Excerpt(id: 43, description: "Excerpt 6", measures: "Mov. IV, [P] - [S] ", pictures: [["Tuba", "1044"]]),
+    Excerpt(id: 44, description: "Excerpt 7", measures: "Mov. IV, [V] - [W] ", pictures: [["Tuba", "1045"]])
+], mutes: "", videos: [
+    ["Andris Nelsons, Gewandhausorchester Leipzig", "_6sX6aIlgJk"],
+    ["Bernard Haitink, Wiener Philharmoniker", "_6sX6aIlgJk"],
+    ["Christoph Eschenbach, Frankfurt Radio Symphony", "uaV3eEJB55c"],
+    ["Christian Thielemann, Wiener Philharmoniker", "cuXPkoOM2j8"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "3pioV8yB3iA"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "2XfhRC03Riw"],
+    ["Otto Klemperer, ", "wGoYMjVagqQ"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "2X2bbusaOzI"],
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "ihK5eDpP2vU"],
+    // Masterclasses
+    [" London Philharmonic Orchestra Trombones","D0SRo79T_Sw"]
+])
+
+let bruckner8 = Composition(id: 38, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 8", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 45, description: "Excerpt 1", measures: "Mov. I, 1 mm. before [V] - 7 mm. before [X]", pictures: [["Tuba", "1046"]]),
+    Excerpt(id: 46, description: "Excerpt 2", measures: "Mov. III, [H] - [I] ", pictures: [["Tuba", "1047"]]),
+    Excerpt(id: 47, description: "Excerpt 3", measures: "Mov. III, [O] - 2 mm. after [Q]", pictures: [["Tuba", "1048"]]),
+    Excerpt(id: 48, description: "Excerpt 4", measures: "Mov. IV, mm. 3 - 40", pictures: [["Tuba", "1049"]]),
+    Excerpt(id: 49, description: "Excerpt 5", measures: "Mov. IV, [X] - [Z] ", pictures: [["Tuba", "1050"]]),
+    Excerpt(id: 50, description: "Excerpt 6", measures: "Mov. IV, 1 mm. before [Gg] - [Hh]", pictures: [["Tuba", "1051"]]),
+    Excerpt(id: 51, description: "Excerpt 7", measures: "Mov. IV, 5 mm. before [Ii] - [Ll]", pictures: [["Tuba", "1052"]])
+], mutes: "", videos: [
+    ["Carlo Maria Giulini, Vienna Philharmonic Orchestra", "xT5kreOhjxU"],
+    ["Herbert von Karajan, Vienna Philharmonic Orchestra", "qqCsF_dIN5A"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "-UPIEJAptcY"],
+    ["Pierre Boulez, Vienna Philharmonic Orchestra", "ufqC1LCpHV4"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "elVHvTrEM34"],
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "7aDNxyFgLXQ"],
+    ["Wilhelm Furtwängler, Wiener Philharmoniker", "YNona1BCvkY"],
+    ["Zubin Mehta, Wiener Philharmoniker", "razu3fSqnVE"],
+    // Masterclasses
+    ["London Philharmonic Orchestra Trombones", "kQEKd0qA-XE"],
+    ["Southeast Trombone Symposium", "5fj7eri3NNY"]
 ])
 
 
@@ -192,9 +243,9 @@ X Berlioz Symphonie Fantastique
 X Brahms Academic Festival Overture
 X Brahms Tragic Overture
 X Brahms: Symphony No. 2
- Bruckner Symphony No. 4
- Bruckner Symphony No. 7
- Bruckner Symphony No. 8
+X Bruckner Symphony No. 4
+X Bruckner Symphony No. 7
+X Bruckner Symphony No. 8
  Bruckner Symphony No. 9
  Franck Symphony in D
  Holst First Suite in Eb
@@ -248,7 +299,7 @@ let brahms = Composer(id: 2, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːm
 ])
 
 let bruckner = Composer(id: 3, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2002, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
-    bruckner4
+    bruckner4, bruckner7, bruckner8
 ])
 
 let franck = Composer(id: 4, name: "César Franck", ipa: "seɪˈzar frɑŋk", image: 2003, country: "United Kingdom of the Netherlands (Now Belgium)", dates: "1822 - 1890", bio: "Franck studied music in Paris at a young age. After his studies, he returned to Belgium and gained a terrible reputation for his oratorio \"Ruth\", and moved to Paris where he became an organist and teacher. Later in life, he became the organist for the Basilica of Saint Clotilde, where he remained for the rest of his life, composing in his free time pieces that are now considered standard repetoire.", excerpts: [
@@ -313,7 +364,7 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8
     ]
     
     /**
