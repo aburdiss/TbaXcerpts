@@ -51,12 +51,12 @@ struct Composer: Identifiable {
 
 //MARK: Excerpts
 
-let berliozFaust = Composition(id: 1, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Damnation of Faust", date: "1846", era: "Romantic", genre: "Opera", excerpts: [
+let berliozFaust = Composition(id: 1, composer: "Hector Berlioz", composerLast: "Berlioz", name: "The Damnation of Faust", date: "1846", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 1, description: "Excerpt 1", measures: "Hungarian March, [20] - End", pictures: [["Tuba", "1000"]]),
     Excerpt(id: 2, description: "Excerpt 2", measures: "Auerbach’s Cellar in Leipzig, mm. 1 - 14", pictures: [["Tuba", "1001"]]),
     Excerpt(id: 3, description: "Excerpt 3", measures: "Auerbach’s Cellar in Leipzig, [39] - 8 mm. after [39] ", pictures: [["Tuba", "1002"]]),
     Excerpt(id: 4, description: "Excerpt 4", measures: "Fugue on the Theme of Brander’s Song", pictures: [["Tuba", "1003"]])
-], mutes: "No", videos: [
+], mutes: "", videos: [
     ["Antal Doráti, Royal Concertgebouw Orchestra", "qfIspYcnpeY"],
     ["Georg Solti, Chicago Symphony Orchestra", "9l9xZdiwOSk"],
     ["George Szell, Cleveland Orchestra", "4hLcKfe-L_Y"],
@@ -70,19 +70,128 @@ let berliozFaust = Composition(id: 1, composer: "Hector Berlioz", composerLast: 
     ["Southeast Trombone Symposium", "TBwYSOIscw0"]
 ])
 
+let berliozBenvenuto = Composition(id: 2, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Benvenuto Cellini", date: "1838", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 5, description: "Excerpt 1", measures: "Overture, [15] - 5 mm. after [19]", pictures: [["Tuba", "1004"]])
+], mutes: "", videos: [
+    //TODO: YouTube for Belvenuto Cellini
+    ["", ""]
+])
+
+let berliozKingLear = Composition(id: 3, composer: "Hector Berlioz", composerLast: "Berlioz", name: "King Lear", date: "1831", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 6, description: "Excerpt 1", measures: "3 mm. after [21] - 8 mm. after [22]", pictures: [["Tuba", "1005"]])
+], mutes: "", videos: [
+    // TODO: YouTube for King Lear
+    [""]
+])
+
+let berliozLeCorsaire = Composition(id: 4, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Le Corsaire", date: "1844", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 7, description: "Excerpt 1", measures: "[5] - 17 mm. before [6] ", pictures: [["Tuba", "1006"]]),
+    Excerpt(id: 8, description: "Excerpt 2", measures: "3 mm. after [12] - [13] ", pictures: [["Tuba", "1007"]]),
+    Excerpt(id: 9, description: "Excerpt 3", measures: "[16] - 8 mm. after [17] ", pictures: [["Tuba", "1008"]]),
+    Excerpt(id: 10, description: "Excerpt 4", measures: "6 mm. before [19] to [19] ", pictures: [["Tuba", "1009"]])
+], mutes: "", videos: [
+    // TODO: YouTube for Le Corsaire
+    ["", ""]
+])
+
+let berliozRomeo = Composition(id: 5, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Roméo et Juliette", date: "1839", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 11, description: "Excerpt 1", measures: "14 mm. before [4] - 8 mm. after [6] ", pictures: [["Tuba", "1010"]]),
+    Excerpt(id: 12, description: "Excerpt 2", measures: "27 mm. before [84] - 1 mm. after [84] ", pictures: [["Tuba", "1011"]]),
+    Excerpt(id: 13, description: "Excerpt 3", measures: "2 mm. after [89] - 13 mm. after [89] ", pictures: [["Tuba", "1012"]])
+], mutes: "", videos: [
+    // TODO: YouTube for Romeo et juliette
+    ["", ""]
+])
+
+let berliozSymphonie = Composition(id: 6, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Symphonie fantastique", date: "1830", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 14, description: "Excerpt 1", measures: "Mov. IV, 2 mm. before [53] - 7 mm. before [54]", pictures: [["Ophicleïde 1", "1013"]]),
+    Excerpt(id: 15, description: "Excerpt 2", measures: "Mov. IV, [56] - 3 mm. after [58]", pictures: [["Ophicleïde 1", "1014"], ["Ophicleïde 2", "1015"]]),
+    Excerpt(id: 16, description: "Excerpt 3", measures: "Mov. V, [60] - 1 mm. before [61]", pictures: [["Ophicleïde 1", "1016"]]),
+    Excerpt(id: 17, description: "Excerpt 4", measures: "Mov. V, 11 mm. before [63] - [63]", pictures: [["Ophicleïde 1", "1017"]]),
+    Excerpt(id: 18, description: "Excerpt 5", measures: "Mov. V, 6 mm. after [66] - 14 mm. before [69]", pictures: [["Ophicleïde 1", "1018"], ["Ophicleïde 2", "1019"]]),
+    Excerpt(id: 19, description: "Excerpt 6", measures: "Mov. V, [84] - End", pictures: [["Ophicleïde 1", "1020"], ["Ophicleïde 2", "1021"]])
+], mutes: "", videos: [
+    ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
+    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
+    ["Sir Colin Davis, London Symphony Orchestra", "HSsxoPcUaaQ"],
+    // Masterclasses
+    ["Southeast Trombone Symposium", "oYSnGq5wNxU"]
+])
+
+let brahmsAcademic = Composition(id: 7, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 20, description: "Excerpt 1", measures: "[C] - 14 mm. before [E]", pictures: [["Tuba", "1022"]]),
+    Excerpt(id: 21, description: "Excerpt 2", measures: "[K] - 3 mm. after [M]", pictures: [["Tuba", "1023"]]),
+    Excerpt(id: 22, description: "Excerpt 3", measures: "mm. 379 - End", pictures: [["Tuba", "1024"]])
+], mutes: "", videos: [
+    ["Bernard Haitink, Royal Concertgebouw Orchestra (With Score)", "5AkQrnLPvC4"],
+    ["Claudio Abbado, Berliner Philharmoniker", "iIss3Gca6Qo"],
+    ["Leonard Bernstein", "Y1E6FBi-AJw"],
+    ["Otto Klemperer, Philharmonia Orchestra", "bjLrZqYguFs"],
+    ["Paavo Järvi, Orchestre de Paris", "R5pzr5655yw"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "JMIxE-tc6r0"],
+    // Bands
+    ["Mark H. Hindsley, The University of Illinois Concert Band", "fiW2N96aPoE"]
+])
+
+let brahms2 = Composition(id: 8, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 2", date: "1877", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 23, description: "Excerpt 1", measures: "Mov. IV, [O] - 14 mm. before [P]", pictures: [["Tuba", "1025"]]),
+    Excerpt(id: 24, description: "Excerpt 2", measures: "Mov. IV, [P] - end", pictures: [["Tuba", "1026"]])
+], mutes: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "qbcfuMlNRWg"],
+    ["Carlos Kleiber, Wiener Philharmoniker", "XHmkl7GM_es"],
+    ["Carlos Kleiber, Wiener Philharmoniker (With Score)", "HCkSpCh4Wcw"],
+    ["Herbert von Karajan, Berlin Philarmonic Orchestra", "nX3RX3A3CbI"],
+    ["Kurt Masur, Gewandhausorchester Leipzig", "lSii-jC6-Uo"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "6nKd-ia7_Lc"],
+    ["Philippe Herreweghe, Frankfurt Radio Symphony Orchestra", "vMPP8DkVhk8"],
+    ["Seiji Ozawa, Saito Kinen Orchestra", "QnTNiYTHQ90"],
+    // Masterclasses
+    ["NDR Elbphilharmonie Orchestra Trombones", "xIM-R4zWO9w"]
+])
+
+let brahmsTragic = Composition(id: 9, composer: "Johannes Brahms", composerLast: "Brahms", name: "Tragic Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 25, description: "Excerpt 1", measures: "mm. 10 - 16", pictures: [["Tuba", "1027"]]),
+    Excerpt(id: 26, description: "Excerpt 2", measures: "[E] - 5 mm. after [E]", pictures: [["Tuba", "1028"]]),
+    Excerpt(id: 27, description: "Excerpt 3", measures: "mm. 395 - 4 mm. before [T]", pictures: [["Tuba", "1029"]])
+], mutes: "", videos: [
+    ["Claudio Abbado, Berliner Philharmoniker", "DmTMrgZ4Q3U"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "d3Ud6w5Ikn8"],
+    ["Daniele Gatti, Royal Concertgebouw Orchestra", "TQ5NEdUiIec"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "3ixfKBIkz1U"],
+    ["Herbert von Karajan, Wiener Philharmoniker", "c-UKntDUWPo"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "siYoz9CLA2c"],
+    ["Sir Colin Davis, European Union Youth Orchestra", "4hkSZiIbJyA"],
+    ["Sir Georg Solti, Chicago Symphony Orchestra", "xcyfLyR2QZk"]
+])
+
+let bruckner4 = Composition(id: 10, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 4", date: "1874", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 28, description: "Excerpt 1", measures: "Mov. I, [D] - mm. 150", pictures: [["Tuba", "1030"]]),
+    Excerpt(id: 29, description: "Excerpt 2", measures: <#T##String#>, pictures: <#T##[[String]]#>)
+], mutes: "", videos: [
+    ["Claudio Abbado, Wiener Philharmoniker", "gcBg-tXn0fs"],
+    ["Daniel Barenboim, Royal Concertgebouw Orchestra", "xdv-9RFZX2w"],
+    ["Eliahu Inbal, Frankfurt Radio Symphony", "DEssCDEAyig"],
+    ["Gustavo Gimeno, The Radio Philharmonic Orchestra", "G_VFA988d8s"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "rCvOXwgOvOo"],
+    ["Sergiu Celibidache, Münchner Philharmoniker", "LY7m119eOys"],
+    ["Stanislaw Skrowaczewski, Orquesta Sinfónica de Galicia", "P_BXBiHtIGM"]
+])
+
 
 let pictures = [["Tuba", ""]]
+let pictures2 = [["Ophicleïde 1", ""], ["Ophicleïde 2", ""]]
 
 /*
 X Berlioz Damnation of Faust
- Berlioz Benvenuto Cellini
- Berlioz King Lear
- Berlioz Le Corsaire
- Berlioz Romeo and Juliet
- Berlioz Symphonie Fantastique
- Brahms Academic Festival Overture
- Brahms Tragic Overture
- Brahms: Symphony No. 2
+X Berlioz Benvenuto Cellini
+X Berlioz King Lear
+X Berlioz Le Corsaire
+X Berlioz Romeo and Juliet
+X Berlioz Symphonie Fantastique
+X Brahms Academic Festival Overture
+X Brahms Tragic Overture
+X Brahms: Symphony No. 2
  Bruckner Symphony No. 4
  Bruckner Symphony No. 7
  Bruckner Symphony No. 8
@@ -131,13 +240,15 @@ X Berlioz Damnation of Faust
 //MARK: Composers
 
 let berlioz = Composer(id: 1, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2000, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [
-    berliozFaust
+    berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie
 ])
 
 let brahms = Composer(id: 2, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2001, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
+    brahmsAcademic, brahms2, brahmsTragic
 ])
 
 let bruckner = Composer(id: 3, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2002, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
+    bruckner4
 ])
 
 let franck = Composer(id: 4, name: "César Franck", ipa: "seɪˈzar frɑŋk", image: 2003, country: "United Kingdom of the Netherlands (Now Belgium)", dates: "1822 - 1890", bio: "Franck studied music in Paris at a young age. After his studies, he returned to Belgium and gained a terrible reputation for his oratorio \"Ruth\", and moved to Paris where he became an organist and teacher. Later in life, he became the organist for the Basilica of Saint Clotilde, where he remained for the rest of his life, composing in his free time pieces that are now considered standard repetoire.", excerpts: [
@@ -202,7 +313,7 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozFaust
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4
     ]
     
     /**
