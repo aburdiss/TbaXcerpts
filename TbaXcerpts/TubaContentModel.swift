@@ -229,9 +229,69 @@ let bruckner8 = Composition(id: 38, composer: "Anton Bruckner", composerLast: "B
     ["Southeast Trombone Symposium", "5fj7eri3NNY"]
 ])
 
+let bruckner9 = Composition(id: 39, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 9", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 52, description: "Excerpt 1", measures: "Mov. I, [N] - [O] ", pictures: [["Tuba", "1053"]]),
+    Excerpt(id: 53, description: "Excerpt 2", measures: "Mov. II, mm. 44 - 50", pictures: [["Tuba", "1054"]]),
+    Excerpt(id: 54, description: "Excerpt 3", measures: "Mov. III, [Q] - [R] ", pictures: [["Tuba", "1055"]])
+], mutes: "", videos: [
+    ["Bernard Haitink, The Orchestre National de France", "MIJET6NO4-k"],
+    ["Claudio Abbado, Berliner Philharmoniker Orchester", "DKQCkmeWJAc"],
+    ["Claudio Abbado, Vienna Philharmonic", "jQo65DZlJ18"],
+    ["Herbert Blomstedt, Gustav Mahler Jugendorchester", "KBZgSC-8Yp0"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "Tw2LNhwnquk"],
+    ["Nézet-Séguin, Wiener Philharmoniker", "wcCamtD5ufs"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "JvlkX4VGN-c"],
+    ["Stanisław Skrowaczewski, Frankfurt Radio Symphony Orchestra", "Az-kHLRQhsk"],
+    ["Wilhelm Furtwängler, Berliner Philharmoniker", "tOfTE-vbKDc"]
+])
+
+let franckD = Composition(id: 40, composer: "César Franck", composerLast: "Franck", name: "Symphony in D minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. III, [M] - 18 mm. after [N]", pictures: [["Tuba", "1056"]]),
+    Excerpt(id: 56, description: "Excerpt 2", measures: "Mov. III, 4 mm. before [S] - End", pictures: [["Tuba", "1057"]])
+], mutes: "", videos: [
+    ["Kurt Masur, New York Philharmonic Orchestra", "r0W3fqfr2CY"],
+    ["Leonard Bernstein, Orchestre National de France", "uosj6PZLKKE"],
+    ["Marc Minkowski, Frankfurt Radio Symphony", "uRWFjK11lfw"],
+    ["Marc Soustrot, University of Gothenburg Symphony Orchestra", "9srAs4ss2kU"],
+    ["Pierre Monteux, Chicago Symphony Orchestra", "G7obO7XyyQc"],
+    ["Ricardo Muti, Philadelphia Orchestra", "0nF6TobCyV4"],
+    ["Sergiu Celibidache, Munich Philharmonic Orchestra", "ytdSWSE7zxo"]
+])
+
+let holstFirstSuite = Composition(id: 41, composer: "Gustav Holst", composerLast: "Holst", name: "First Suite in E♭ for Military Band", date: "1909", era: "Modern", genre: "Suite for Wind Band", excerpts: [
+    Excerpt(id: 57, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 8", pictures: [["Euphonium", "1058"], ["Tuba", "1059"]]),
+    Excerpt(id: 58, description: "Excerpt 2", measures: "Mov. I, 7 mm. after [B] - [C]", pictures: [["Euphonium", "1060"], ["Tuba", "1061"]]),
+    Excerpt(id: 59, description: "Excerpt 3", measures: "Mov. II, [F] - 3 mm. before End", pictures: [["Euphonium", "1062"], ["Tuba", "1063"]])
+], mutes: "", videos: [
+    // TODO: Find YouTube for Holst First Suite
+    ["", ""]
+])
+
+let holstPlanets = Composition(id: 42, composer: "Gustav Holst", composerLast: "Holst", name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
+    Excerpt(id: 60, description: "Excerpt 1", measures: "Mov. I, [5] - 3 mm. before [6]", pictures: [["Tenor Tuba", "1064"], ["Tuba", "1065"]]),
+    Excerpt(id: 61, description: "Excerpt 2", measures: "Mov. I, mm. 110 - [8] ", pictures: [["Tenor Tuba", "1066"], ["Tuba", "1067"]]),
+    Excerpt(id: 62, description: "Excerpt 3", measures: "Mov. I, 2 mm. after [8] - [9]", pictures: [["Tenor Tuba", "1068"]]),
+    Excerpt(id: 63, description: "Excerpt 4", measures: "Mov. IV, mm. 16 - 28", pictures: [["Tenor Tuba", "1069"], ["Tuba", "1070"]]),
+    Excerpt(id: 64, description: "Excerpt 5", measures: "Mov. IV, mm. 148 - [7]", pictures: [["Tenor Tuba", "1071"], ["Tuba", "1072"]]),
+    Excerpt(id: 65, description: "Excerpt 6", measures: "Mov. IV, 3 mm. after [11] - mm. 274", pictures: [["Tenor Tuba", "1073"], ["Tuba", "1074"]]),
+    Excerpt(id: 66, description: "Excerpt 7", measures: "Mov. IV, mm. 380 - 395", pictures: [["Tenor Tuba", "1075"], ["Tuba", "1076"]]),
+    Excerpt(id: 67, description: "Excerpt 8", measures: "Mov. V, mm. 101 - [5] ", pictures: [["Tuba", "1077"]]),
+    Excerpt(id: 68, description: "Excerpt 9", measures: "Mov. VI, mm. 67 - [3] ", pictures: [["Tenor Tuba", "1078"], ["Tuba", "1079"]]),
+    Excerpt(id: 69, description: "Excerpt 10", measures: "Mov. VI, mm. 138 - 145", pictures: [["Tenor Tuba", "1080"], ["Tuba", "1081"]])
+], mutes: "", videos: [
+    ["André Previn,  London Symphony Orchestra (With Score)", "YRDF2YJojAM"],
+    ["Edward Gardner, National Youth Orchestra", "be7uEyyNIT4"],
+    ["Eugene Ormandy, Philadelphia Orchestra", "YtphY-4xjQw"],
+    ["Herbert Von Karajan, Berlin Philharmonic Orchestra", "gd_pt39NwFM"],
+    ["Maciej Tarnowski, Warsaw Philharmonic Orchestra", "3OD_HzdZwKk"],
+    ["Sir Adrian Boult, BBC Symphony Orchestra (With Score)", "eSqb7gD5acY"],
+    ["Sir Charles Groves, Royal Philharmonic Orchestra", "UmOTMkoCCkM"],
+    ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"]
+])
+
 
 let pictures = [["Tuba", ""]]
-let pictures2 = [["Ophicleïde 1", ""], ["Ophicleïde 2", ""]]
+let pictures2 = [["Tenor Tuba", ""], ["Tuba", ""]]
 
 /*
 X Berlioz Damnation of Faust
@@ -246,10 +306,10 @@ X Brahms: Symphony No. 2
 X Bruckner Symphony No. 4
 X Bruckner Symphony No. 7
 X Bruckner Symphony No. 8
- Bruckner Symphony No. 9
- Franck Symphony in D
- Holst First Suite in Eb
- Holst The Planets
+X Bruckner Symphony No. 9
+X Franck Symphony in D
+X Holst First Suite in Eb
+X Holst The Planets
  Liszt/Brown Les Preludes
  Liszt/Kindig Mazeppa
  Mahler Symphony No. 1
@@ -299,13 +359,15 @@ let brahms = Composer(id: 2, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːm
 ])
 
 let bruckner = Composer(id: 3, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2002, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
-    bruckner4, bruckner7, bruckner8
+    bruckner4, bruckner7, bruckner8, bruckner9
 ])
 
 let franck = Composer(id: 4, name: "César Franck", ipa: "seɪˈzar frɑŋk", image: 2003, country: "United Kingdom of the Netherlands (Now Belgium)", dates: "1822 - 1890", bio: "Franck studied music in Paris at a young age. After his studies, he returned to Belgium and gained a terrible reputation for his oratorio \"Ruth\", and moved to Paris where he became an organist and teacher. Later in life, he became the organist for the Basilica of Saint Clotilde, where he remained for the rest of his life, composing in his free time pieces that are now considered standard repetoire.", excerpts: [
+    franckD
 ])
 
 let holst = Composer(id: 5, name: "Gustav Holst", ipa: "ˈgʊs tɑv hoʊlst", image: 2004, country: "England", dates: "1874-1934", bio: "Holst was a popular English composer of the modern era. He aspired to become a concert pianist, but neuritis in his right arm prevented him. Against his father's wishes, he studied to become a composer. He was unable to support himself from his compositions alone, and started to play and teach the trombone professionally. He is most well known for his orchestral composition \"The Planets\".", excerpts: [
+    holstFirstSuite, holstPlanets
 ])
 
 let liszt = Composer(id: 6, name: "Franz Liszt", ipa: "frɑnts lɪst", image: 2005, country: "Hungary", dates: "1811-1886", bio: "Liszt was an extremely well known composer and performer throughout his life, and befriended many other composers, including Chopin, Wagner, Berlioz, and Schumann. Liszt was very prolific, leaving behind a vast body of diverse work. He invented the symphonic poem, and was one of the first musicians to perform what we now know to be a recital. Liszt also performed from memory, being one of the first musicians to do so.", excerpts: [
@@ -364,7 +426,7 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets
     ]
     
     /**
