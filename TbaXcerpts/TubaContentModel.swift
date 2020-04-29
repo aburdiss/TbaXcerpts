@@ -289,6 +289,48 @@ let holstPlanets = Composition(id: 42, composer: "Gustav Holst", composerLast: "
     ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"]
 ])
 
+let mahler1 = Composition(id: 43, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 70, description: "Excerpt 1", measures: "Mov. I, 11 mm. before [25] - [25]", pictures: [["Tuba", "1082"]]),
+    Excerpt(id: 71, description: "Excerpt 2", measures: "Mov. II, 3 mm. after [15] - 3 mm. before [16]", pictures: [["Tuba", "1083"]]),
+    Excerpt(id: 72, description: "Excerpt 3", measures: "Mov. II, 3 mm. after [32] - End", pictures: [["Tuba", "1084"]]),
+    Excerpt(id: 73, description: "Excerpt 4", measures: "Mov. III, 4 mm. before [3] - 3 mm. before [5]", pictures: [["Tuba", "1085"]]),
+], mutes: "", videos: [
+    //TODO: Find YouTube videos for Mahler 1
+    ["", ""]
+])
+
+let mahler2 = Composition(id: 44, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 74, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [18] - 4 mm. after [18]", pictures: [["Tuba", "1086"]]),
+    Excerpt(id: 75, description: "Excerpt 2", measures: "Mov. I, mm. 312 - 314", pictures: [["Tuba", "1087"]]),
+    Excerpt(id: 76, description: "Excerpt 3", measures: "Mov. I, [20] - 4 mm. after [20]", pictures: [["Tuba", "1088"]]),
+    Excerpt(id: 77, description: "Excerpt 4", measures: "Mov. V, [14] - [15]", pictures: [["Tuba", "1089"]]),
+    Excerpt(id: 78, description: "Excerpt 5", measures: "Mov. V, mm. 301 - 307", pictures: [["Tuba", "1090"]]),
+    Excerpt(id: 79, description: "Excerpt 6", measures: "Mov. V, [25] - 8 mm. after [26]", pictures: [["Tuba", "1091"]])
+], mutes: "", videos: [
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "oUBx_Q-xw2M"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra of Venezuela", "rKrsEbjXYX8"],
+    ["Leonard Bernstein, London Symphony Orchestra", "edA9Zard3-U"],
+    ["Leonard Bernstein, New York Philharmonic (With Score)", "z2KcsjA_PEQ"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "sHsFIv8VA7w"],
+    // Masterclasses
+    ["New York Philharmonic Trombones", "jpngMjN6fmQ"],
+    ["Southeast Trombone Symposium", "IQgPSZq1bzs"]
+])
+
+let mahler3 = Composition(id: 45, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 80, description: "Excerpt 1", measures: "Mov. I, [2] - 3 mm. after [4]", pictures: [["Tuba", "1092"]]),
+    Excerpt(id: 81, description: "Excerpt 2", measures: "Mov. I, 1 mm. after [44] - 2 mm. before [45]", pictures: [["Tuba", "1093"]]),
+    Excerpt(id: 82, description: "Excerpt 3", measures: "Mov. I, 6 mm. before [74] - End", pictures: [["Tuba", "1094"]]),
+    Excerpt(id: 83, description: "Excerpt 4", measures: "Mov. III, 4 mm. before [20] - [21] ", pictures: [["Tuba", ""]])
+], mutes: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "oSBfEPAnDsY"],
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "XYNk8VOGKa8"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "Xplx64LVENg"],
+    ["Jukka-Pekka Saraste, WDR Sinfonieorchester Köln", "Cjp-n6xS1CE"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "1AwFutIcnrU"],
+    ["Semyon Bychkov, WDR Sinfonieorchester Köln (With Score)", "pRhQhUtOpPI"]
+])
+
 
 let pictures = [["Tuba", ""]]
 let pictures2 = [["Tenor Tuba", ""], ["Tuba", ""]]
@@ -310,10 +352,10 @@ X Bruckner Symphony No. 9
 X Franck Symphony in D
 X Holst First Suite in Eb
 X Holst The Planets
- Liszt/Brown Les Preludes
- Liszt/Kindig Mazeppa
- Mahler Symphony No. 1
- Mahler Symphony No. 2
+ Liszt/Brown Les Preludes <- Cannot Find
+ Liszt/Kindig Mazeppa <- Cannot Find
+X Mahler Symphony No. 1
+X Mahler Symphony No. 2
  Mahler Symphony No. 3
  Mahler Symphony No. 5
  Mahler Symphony No. 6
@@ -370,10 +412,13 @@ let holst = Composer(id: 5, name: "Gustav Holst", ipa: "ˈgʊs tɑv hoʊlst", 
     holstFirstSuite, holstPlanets
 ])
 
+/*
 let liszt = Composer(id: 6, name: "Franz Liszt", ipa: "frɑnts lɪst", image: 2005, country: "Hungary", dates: "1811-1886", bio: "Liszt was an extremely well known composer and performer throughout his life, and befriended many other composers, including Chopin, Wagner, Berlioz, and Schumann. Liszt was very prolific, leaving behind a vast body of diverse work. He invented the symphonic poem, and was one of the first musicians to perform what we now know to be a recital. Liszt also performed from memory, being one of the first musicians to do so.", excerpts: [
 ])
+ */
 
 let mahler = Composer(id: 7, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2006, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
+    mahler1, mahler2
 ])
 
 let mendellsohn = Composer(id: 8, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2007, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
@@ -426,14 +471,14 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets, mahler1, mahler2
     ]
     
     /**
      An alphabetical list of all of the composers in the app.
      */
     var composers: [Composer] = [
-        berlioz, brahms, bruckner, franck, holst, liszt, mahler, mendellsohn, mussorgsky, respighi, rimskyKorsakov, sibelius, sousa, rStrauss, stravinsky, tchaikovsky, verdi, wagner
+        berlioz, brahms, bruckner, franck, holst, mahler, mendellsohn, mussorgsky, respighi, rimskyKorsakov, sibelius, sousa, rStrauss, stravinsky, tchaikovsky, verdi, wagner
     ]
 }
 
