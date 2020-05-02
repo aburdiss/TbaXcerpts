@@ -185,7 +185,7 @@ let bruckner4 = Composition(id: 10, composer: "Anton Bruckner", composerLast: "B
     ["Stanislaw Skrowaczewski, Orquesta Sinfónica de Galicia", "P_BXBiHtIGM"]
 ])
 
-let bruckner7 = Composition(id: 37, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1881", era: "Romantic", genre: "Symphony", excerpts: [
+let bruckner7 = Composition(id: 11, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1881", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 38, description: "Excerpt 1", measures: "Mov. I, 10 mm. after [A] - 7 mm. before [B] ", pictures: [["Tuba", "1039"]]),
     Excerpt(id: 39, description: "Excerpt 2", measures: "Mov. I, mm. 127 - 130", pictures: [["Tuba", "1040"]]),
     Excerpt(id: 40, description: "Excerpt 3", measures: "Mov. I, 2 mm. after [M] - [N]", pictures: [["Tuba", "1041"]]),
@@ -207,7 +207,7 @@ let bruckner7 = Composition(id: 37, composer: "Anton Bruckner", composerLast: "B
     [" London Philharmonic Orchestra Trombones","D0SRo79T_Sw"]
 ])
 
-let bruckner8 = Composition(id: 38, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 8", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
+let bruckner8 = Composition(id: 12, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 8", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 45, description: "Excerpt 1", measures: "Mov. I, 1 mm. before [V] - 7 mm. before [X]", pictures: [["Tuba", "1046"]]),
     Excerpt(id: 46, description: "Excerpt 2", measures: "Mov. III, [H] - [I] ", pictures: [["Tuba", "1047"]]),
     Excerpt(id: 47, description: "Excerpt 3", measures: "Mov. III, [O] - 2 mm. after [Q]", pictures: [["Tuba", "1048"]]),
@@ -229,7 +229,7 @@ let bruckner8 = Composition(id: 38, composer: "Anton Bruckner", composerLast: "B
     ["Southeast Trombone Symposium", "5fj7eri3NNY"]
 ])
 
-let bruckner9 = Composition(id: 39, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 9", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
+let bruckner9 = Composition(id: 13, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 9", date: "1887", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 52, description: "Excerpt 1", measures: "Mov. I, [N] - [O] ", pictures: [["Tuba", "1053"]]),
     Excerpt(id: 53, description: "Excerpt 2", measures: "Mov. II, mm. 44 - 50", pictures: [["Tuba", "1054"]]),
     Excerpt(id: 54, description: "Excerpt 3", measures: "Mov. III, [Q] - [R] ", pictures: [["Tuba", "1055"]])
@@ -245,7 +245,7 @@ let bruckner9 = Composition(id: 39, composer: "Anton Bruckner", composerLast: "B
     ["Wilhelm Furtwängler, Berliner Philharmoniker", "tOfTE-vbKDc"]
 ])
 
-let franckD = Composition(id: 40, composer: "César Franck", composerLast: "Franck", name: "Symphony in D minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+let franckD = Composition(id: 14, composer: "César Franck", composerLast: "Franck", name: "Symphony in D minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 55, description: "Excerpt 1", measures: "Mov. III, [M] - 18 mm. after [N]", pictures: [["Tuba", "1056"]]),
     Excerpt(id: 56, description: "Excerpt 2", measures: "Mov. III, 4 mm. before [S] - End", pictures: [["Tuba", "1057"]])
 ], mutes: "", videos: [
@@ -258,7 +258,7 @@ let franckD = Composition(id: 40, composer: "César Franck", composerLast: "Fran
     ["Sergiu Celibidache, Munich Philharmonic Orchestra", "ytdSWSE7zxo"]
 ])
 
-let holstFirstSuite = Composition(id: 41, composer: "Gustav Holst", composerLast: "Holst", name: "First Suite in E♭ for Military Band", date: "1909", era: "Modern", genre: "Suite for Wind Band", excerpts: [
+let holstFirstSuite = Composition(id: 15, composer: "Gustav Holst", composerLast: "Holst", name: "First Suite in E♭ for Military Band", date: "1909", era: "Modern", genre: "Suite for Wind Band", excerpts: [
     Excerpt(id: 57, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 8", pictures: [["Euphonium", "1058"], ["Tuba", "1059"]]),
     Excerpt(id: 58, description: "Excerpt 2", measures: "Mov. I, 7 mm. after [B] - [C]", pictures: [["Euphonium", "1060"], ["Tuba", "1061"]]),
     Excerpt(id: 59, description: "Excerpt 3", measures: "Mov. II, [F] - 3 mm. before End", pictures: [["Euphonium", "1062"], ["Tuba", "1063"]])
@@ -267,7 +267,7 @@ let holstFirstSuite = Composition(id: 41, composer: "Gustav Holst", composerLast
     ["", ""]
 ])
 
-let holstPlanets = Composition(id: 42, composer: "Gustav Holst", composerLast: "Holst", name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
+let holstPlanets = Composition(id: 16, composer: "Gustav Holst", composerLast: "Holst", name: "The Planets", date: "1916", era: "Modern", genre: "Orchestral Suite", excerpts: [
     Excerpt(id: 60, description: "Excerpt 1", measures: "Mov. I, [5] - 3 mm. before [6]", pictures: [["Tenor Tuba", "1064"], ["Tuba", "1065"]]),
     Excerpt(id: 61, description: "Excerpt 2", measures: "Mov. I, mm. 110 - [8] ", pictures: [["Tenor Tuba", "1066"], ["Tuba", "1067"]]),
     Excerpt(id: 62, description: "Excerpt 3", measures: "Mov. I, 2 mm. after [8] - [9]", pictures: [["Tenor Tuba", "1068"]]),
@@ -289,7 +289,7 @@ let holstPlanets = Composition(id: 42, composer: "Gustav Holst", composerLast: "
     ["William Steinberg, Boston Symphony Orchestra", "Isic2Z2e2xs"]
 ])
 
-let mahler1 = Composition(id: 43, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+let mahler1 = Composition(id: 17, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 70, description: "Excerpt 1", measures: "Mov. I, 11 mm. before [25] - [25]", pictures: [["Tuba", "1082"]]),
     Excerpt(id: 71, description: "Excerpt 2", measures: "Mov. II, 3 mm. after [15] - 3 mm. before [16]", pictures: [["Tuba", "1083"]]),
     Excerpt(id: 72, description: "Excerpt 3", measures: "Mov. II, 3 mm. after [32] - End", pictures: [["Tuba", "1084"]]),
@@ -299,7 +299,7 @@ let mahler1 = Composition(id: 43, composer: "Gustav Mahler", composerLast: "Mahl
     ["", ""]
 ])
 
-let mahler2 = Composition(id: 44, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
+let mahler2 = Composition(id: 18, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 2", date: "1894", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 74, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [18] - 4 mm. after [18]", pictures: [["Tuba", "1086"]]),
     Excerpt(id: 75, description: "Excerpt 2", measures: "Mov. I, mm. 312 - 314", pictures: [["Tuba", "1087"]]),
     Excerpt(id: 76, description: "Excerpt 3", measures: "Mov. I, [20] - 4 mm. after [20]", pictures: [["Tuba", "1088"]]),
@@ -317,11 +317,11 @@ let mahler2 = Composition(id: 44, composer: "Gustav Mahler", composerLast: "Mahl
     ["Southeast Trombone Symposium", "IQgPSZq1bzs"]
 ])
 
-let mahler3 = Composition(id: 45, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
+let mahler3 = Composition(id: 19, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 80, description: "Excerpt 1", measures: "Mov. I, [2] - 3 mm. after [4]", pictures: [["Tuba", "1092"]]),
     Excerpt(id: 81, description: "Excerpt 2", measures: "Mov. I, 1 mm. after [44] - 2 mm. before [45]", pictures: [["Tuba", "1093"]]),
     Excerpt(id: 82, description: "Excerpt 3", measures: "Mov. I, 6 mm. before [74] - End", pictures: [["Tuba", "1094"]]),
-    Excerpt(id: 83, description: "Excerpt 4", measures: "Mov. III, 4 mm. before [20] - [21] ", pictures: [["Tuba", ""]])
+    Excerpt(id: 83, description: "Excerpt 4", measures: "Mov. III, 4 mm. before [20] - [21] ", pictures: [["Tuba", "1095"]])
 ], mutes: "", videos: [
     ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "oSBfEPAnDsY"],
     ["Bernard Haitink, Koninklijk Concertgebouworkest", "XYNk8VOGKa8"],
@@ -331,9 +331,88 @@ let mahler3 = Composition(id: 45, composer: "Gustav Mahler", composerLast: "Mahl
     ["Semyon Bychkov, WDR Sinfonieorchester Köln (With Score)", "pRhQhUtOpPI"]
 ])
 
+let mahler5 = Composition(id: 20, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 84, description: "Excerpt 1", measures: "Mov. I, 10 mm. before [12] - [12]", pictures: [["Tuba", "1096"]]),
+    Excerpt(id: 85, description: "Excerpt 2", measures: "Mov. II, 6 mm. before [20] - 7 mm. after [20] ", pictures: [["Tuba", "1097"]]),
+    Excerpt(id: 86, description: "Excerpt 3", measures: "Mov. II, 8 mm. before [25] - [25] ", pictures: [["Tuba", "1098"]]),
+    Excerpt(id: 87, description: "Excerpt 4", measures: "Mov. II, 4 mm. before End - End", pictures: [["Tuba", "1099"]]),
+    Excerpt(id: 88, description: "Excerpt 5", measures: "Mov. III, 13 mm. before [16] - [17] ", pictures: [["Tuba", "1100"]]),
+    Excerpt(id: 89, description: "Excerpt 6", measures: "Mov. III, [21] - [22] ", pictures: [["Tuba", "1101"]]),
+    Excerpt(id: 90, description: "Excerpt 7", measures: "Mov. III, [25] - [26] ", pictures: [["Tuba", "1102"]]),
+    Excerpt(id: 91, description: "Excerpt 8", measures: "Mov. III, 4 mm. after [30] - 8 mm. after [30] ", pictures: [["Tuba", "1103"]]),
+    Excerpt(id: 92, description: "Excerpt 9", measures: "Mov. V, 9 mm. before [19] - [19] ", pictures: [["Tuba", "1104"]]),
+    Excerpt(id: 93, description: "Excerpt 10", measures: "Mov. V, 1 mm. before [22] - 9 mm. before [23] ", pictures: [["Tuba", "1105"]]),
+    Excerpt(id: 94, description: "Excerpt 11", measures: "Mov. V, 4 mm. before [24] - [24] ", pictures: [["Tuba", "1106"]])
+], mutes: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "fEGNNuEM3Fc"],
+    ["Bernard Haitink, Koninklijk Concertgebouworkest", "MruTSRVecMo"],
+    ["Christoph Eschenbach, Sinfónica de Galicia", "1tCk6nOOdzI"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "vOvXhyldUko"],
+    ["Gustavo Dudamel, Simón Bolívar Symphony Orchestra", "1F5G9JngqZY"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "6EJn43FEmjo"],
+    ["Leonard Bernstein, Wiener Philharmoniker (With Score)", "nO0nytFsumo"],
+    ["Valery Gergiev, World Orchestra for Peace", "UjmthMDpyco"]
+])
+
+let mahler6 = Composition(id: 21, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 6", date: "1904", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 95, description: "Excerpt 1", measures: "Mov. I, 3 mm. before [40] - [40] ", pictures: [["Tuba", "1107"]]),
+    Excerpt(id: 96, description: "Excerpt 2", measures: "Mov. I, 2 mm. before [44] - End", pictures: [["Tuba", "1108"]]),
+    Excerpt(id: 97, description: "Excerpt 3", measures: "Mov. III, 3 mm. before [69] - 2 mm. before [70] ", pictures: [["Tuba", "1109"]]),
+    Excerpt(id: 98, description: "Excerpt 4", measures: "Mov. III, 3 mm. after [82] - [86] ", pictures: [["Tuba", "1110"]]),
+    Excerpt(id: 99, description: "Excerpt 5", measures: "Mov. IV, [104] - 8 mm. before [105] ", pictures: [["Tuba", "1111"]]),
+    Excerpt(id: 100, description: "Excerpt 6", measures: "Mov. IV, [115] - [117] ", pictures: [["Tuba", "1112"]]),
+    Excerpt(id: 101, description: "Excerpt 7", measures: "Mov. IV, [140] - 4 mm. after [141] ", pictures: [["Tuba", "1113"]]),
+    Excerpt(id: 102, description: "Excerpt 8", measures: "Mov. IV, [153] - [154] ", pictures: [["Tuba", "1114"]]),
+    Excerpt(id: 103, description: "Excerpt 9", measures: "Mov. IV, 6 mm. before [160] - 2 mm. before [161] ", pictures: [["Tuba", "1115"]])
+], mutes: "", videos: [
+    //TODO: YouTube for Mahler 6
+    ["", ""]
+])
+
+let mahler9 = Composition(id: 22, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Romantic", genre: "", excerpts: [
+    Excerpt(id: 104, description: "Excerpt 1", measures: "Mov. I, 1 mm. after [9] - 4 mm. after [9] ", pictures: [["Tuba", "1116"]]),
+    Excerpt(id: 105, description: "Excerpt 2", measures: "Mov. II, 3 mm. after [25] - 8 mm. after [25] ", pictures: [["Tuba", "1117"]]),
+    Excerpt(id: 106, description: "Excerpt 3", measures: "Mov. III, Sempre l’istesso tempo after [32]", pictures: [["Tuba", "1118"]]),
+    Excerpt(id: 107, description: "Excerpt 4", measures: "Mov. IV, Solo", pictures: [["Tuba", "1119"]])
+], mutes: "", videos: [
+    ["Bernard Haitink, Concertgebouw Orchestra", "RjYs99atLUI"],
+    ["정명훈 (Chung Myung-Whun), Concergebouworkest", "7NKvBNliyN8"],
+    ["Claudio Abbado, Lucerne Festival Orchestra", "udhHFt--10Q"],
+    ["Daniel Barenboim, Staatskapelle Berlin", "RlGe8bsdpB8"],
+    ["Daniele Gatti, Vienna Philharmonic Orchestra", "Q1VjTuVntGE"],
+    ["Gustavo Dudamel, Los Angeles Philharmonic", "3GwrgASjQ9I"],
+    ["Leonard Bernstein, Berlin Philharmonic Orchestra (With Score)", "ah3mcaRpc9Q"],
+    ["Leonard Bernstein, Vienna Philharmonic Orchestra", "IoNEeKJ2x44"]
+])
+
+let mendelssohnMidsummer = Composition(id: 23, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "A Midsummer Night's Dream", date: "1842", era: "Romantic", genre: "Incidental Music", excerpts: [
+    Excerpt(id: 108, description: "Excerpt 1", measures: "Overture, 12 mm. after [A] - 33 mm. after [A] ", pictures: [["Ophicleïde", "1120"]]),
+    Excerpt(id: 109, description: "Excerpt 2", measures: "Overture, 8 mm. before [D] - [D] ", pictures: [["Ophicleïde", "1121"]]),
+    Excerpt(id: 110, description: "Excerpt 3", measures: "Overture, mm. 545 - [H] ", pictures: [["Ophicleïde", "1122"]]),
+    Excerpt(id: 111, description: "Excerpt 4", measures: "Wedding March, [B] - 8 mm. after [B] ", pictures: [["Ophicleïde", "1123"]]),
+    Excerpt(id: 112, description: "Excerpt 5", measures: "Wedding March, [C] - 24 mm. after [C] ", pictures: [["Ophicleïde", "1124"]])
+], mutes: "", videos: [
+    ["Alexis Hauser, McGill Symphony Orchestra", "zrhbm-kaxpk"],
+    ["András Vass, Pannon Philharmonic Orchestra", "vQUrs0V4syc"],
+    ["Avner Biron, The Israel Camerata Jerusalem Orchestra", "H2wYyTZKb6Q"],
+    ["Francesco d'Avalos, Philharmonia Orchestra", "mqOY-02XAFk"],
+    ["Paavo Järvi, Frankfurt Radio Symphony Orchestra", "njdTB6HxTj8"],
+    ["Seiji Ozawa, Berlin Philharmonic", "yijwRZ6eqe0"],
+    ["Walter Weller, Royal Scottish Orchestra", "gJs4KkUxN2Y"]
+])
+
+let mussorgskyNightBald = Composition(id: 24, composer: "Modest Mussorgsky", composerLast: "Mussorgsky", name: "Night on Bald Mountain", date: "1867", era: "Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 113, description: "Excerpt 1", measures: "mm. 14 - 10 mm. before [A] ", pictures: [["Tuba", "1125"]]),
+    Excerpt(id: 114, description: "Excerpt 2", measures: "8 mm. before [N] - 3 mm. before [N] ", pictures: [["Tuba", "1126"]]),
+    Excerpt(id: 115, description: "Excerpt 3", measures: "5 mm. before [V] - [V] ", pictures: [["Tuba", "1127"]])
+], mutes: "", videos: [
+    //TODO: YouTube for Mussorgsky Night
+    ["", ""]
+])
+
 
 let pictures = [["Tuba", ""]]
-let pictures2 = [["Tenor Tuba", ""], ["Tuba", ""]]
+let pictures2 = [["Ophicleïde", ""]]
 
 /*
 X Berlioz Damnation of Faust
@@ -356,13 +435,13 @@ X Holst The Planets
  Liszt/Kindig Mazeppa <- Cannot Find
 X Mahler Symphony No. 1
 X Mahler Symphony No. 2
- Mahler Symphony No. 3
- Mahler Symphony No. 5
- Mahler Symphony No. 6
- Mahler Symphony No. 9
- Mendelssohn A Midsummernight’s Dream
- Mussorgsky Night on Bald Mountain
- Mussorgsky/Ravel: Pictures at an Exhibition
+X Mahler Symphony No. 3
+X Mahler Symphony No. 5
+X Mahler Symphony No. 6
+X Mahler Symphony No. 9
+X Mendelssohn A Midsummernight’s Dream
+X Mussorgsky Night on Bald Mountain
+ Mussorgsky/Ravel: Pictures at an Exhibition // NOT PD(!)
  Respighi Fountains of Rome
  Rimsky-Korsakov Scheherazade
  Sibelius Symphony 2
@@ -412,19 +491,16 @@ let holst = Composer(id: 5, name: "Gustav Holst", ipa: "ˈgʊs tɑv hoʊlst", 
     holstFirstSuite, holstPlanets
 ])
 
-/*
-let liszt = Composer(id: 6, name: "Franz Liszt", ipa: "frɑnts lɪst", image: 2005, country: "Hungary", dates: "1811-1886", bio: "Liszt was an extremely well known composer and performer throughout his life, and befriended many other composers, including Chopin, Wagner, Berlioz, and Schumann. Liszt was very prolific, leaving behind a vast body of diverse work. He invented the symphonic poem, and was one of the first musicians to perform what we now know to be a recital. Liszt also performed from memory, being one of the first musicians to do so.", excerpts: [
-])
- */
-
 let mahler = Composer(id: 7, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2006, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
-    mahler1, mahler2
+    mahler1, mahler2, mahler3, mahler5, mahler6, mahler9
 ])
 
 let mendellsohn = Composer(id: 8, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2007, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
+    mendelssohnMidsummer
 ])
 
 let mussorgsky = Composer(id: 9, name: "Modest Mussorgsky", ipa: "moʊˈdɛst mʊˈsɔrg ski", image: 2008, country: "Russia", dates: "1839-1881", bio: "Mussorgsky was one of the most important composers in Russia during his lifetime. He frequently incorporated folk music, and discarded western traditions in favor of Russian nationalism. Many of his works are most famous through arrangements by other composers.", excerpts: [
+    mussorgskyNightBald
 ])
 
 let respighi = Composer(id: 10, name: "Ottorino Respighi", ipa: "ottoˈriːno reˈspiːɡi", image: 2009, country: "Italy", dates: "1879-1936", bio: "Respighi was an Italian violinist, composer, and musicologist. Hist interest in musicology led to the composition of his three most famous compositions: \"Fountains of Rome\", \"Pines of Rome\", and \"Roman Festivals\"", excerpts: [
@@ -471,7 +547,7 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets, mahler1, mahler2
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets, mahler1, mahler2, mahler3, mahler5, mahler6, mahler9, mendelssohnMidsummer, mussorgskyNightBald
     ]
     
     /**

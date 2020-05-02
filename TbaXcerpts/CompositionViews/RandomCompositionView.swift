@@ -89,11 +89,8 @@ struct RandomCompositionView: View {
             self.generateExcerpt()
         }
         .navigationBarTitle("Random Excerpt", displayMode: .inline)
-        .navigationBarItems(trailing: Button(action: {
-            self.generateExcerpt()
-        }) {
-            Text("Randomize")
-        })
+        
+        
     }
     
     func generateExcerpt() {
