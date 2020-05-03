@@ -410,9 +410,161 @@ let mussorgskyNightBald = Composition(id: 24, composer: "Modest Mussorgsky", com
     ["", ""]
 ])
 
+let respighiFountains = Composition(id: 25, composer: "Ottorino Respighi", composerLast: "Respighi", name: "Fontane di Roma", date: "1916", era: "Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 116, description: "Excerpt 1", measures: "1 mm. before [11] - 4 mm. after [16] ", pictures: [["Tuba", "1128"]])
+], mutes: "", videos: [
+    ["Alan Gilbert, New York Philharmonic", "kk7LTvjdv1M"],
+    ["Arturo Toscanini, Maazel Filarmonica", "u6bRHpcxJcM"],
+    ["Eugene Ormandy, Philadelphia Orchestra", "aSVOR3_aJ3M"],
+    ["Herbert von Karajan, Berlin Philharmonic", "eGZ9oslaeak"],
+    // Bands
+    ["Jerry Junkin, The University of Texas Wind Ensemble", "PM_UjFqclIc"]
+])
+
+let rimskyKorsakovScheherazade = Composition(id: 26, composer: "Nikolai Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Symphonic Suite", excerpts: [
+    Excerpt(id: 117, description: "Excerpt 1", measures: "Mov. I, [H] - [L] ", pictures: [["Tuba", "1129"]])
+], mutes: "", videos: [
+    ["André Previn, Vienna Philharmonic Orchestra", "p_iPn1GbUUU"],
+    ["Eugene Ormandy, Philadelphia Orchestra", "LEN5ObBND88"],
+    ["Leif Segerstam, Sinfónica de Galicia", "zY4w4_W30aQ"],
+    ["Nejc Bečan, Gimnazija Kranj Symphony Orchestra", "17lEx0ytE_0"],
+    ["Valery Gergiev, Vienna Philharmonic", "SQNymNaTr-Y"],
+    ["Yevgeny Svetlanov, USSR State Symphony Orchestra", "jR_Q7NbLzyU"],
+    ["Yuri Temirkanov, Saint-Petersburg Philharmonic Orchestra", "vdnUBQT5Bqw"]
+])
+
+let sibelius1 = Composition(id: 27, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 1", date: "1899", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 118, description: "Excerpt 1", measures: "Mov. IV, 4 mm. after [N] - 22 mm. after [O]", pictures: [["Tuba", "1130"]])
+], mutes: "", videos: [
+    //TODO: YouTube for Sibelius 1
+    ["", ""]
+])
+
+let sibelius2 = Composition(id: 28, composer: "Jean Sibelius", composerLast: "Sibelius", name: "Symphony No. 2", date: "1902", era: "Modern", genre: "Symphony", excerpts: [
+    Excerpt(id: 119, description: "Excerpt 1", measures: "Mov. II, [F] - mm. 116", pictures: [["Tuba", "1131"]])
+], mutes: "", videos: [
+    ["Dima Slobodeniouk, Orquesta Sinfónica de Galicia", "g82t0AJ1FnY"],
+    ["George Szell, Royal Concertgebouw Orchestra", "raIy56s-O7w"],
+    ["Gustavo Dudamel, Gothenburg Symphony Orchestra", "bpCcRZY1grc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "WFfbXvJXimg"],
+    ["Leonard Bernstein, Wiener Philharmoniker", "SAOf46CXaaw"],
+    ["Paavo Järvi, Orchestre Paris", "K97J2Vlk-a8"],
+    ["Petri Sakari, Iceland Symphony Orchestra (With Score)", "YXGxOa682Uc"],
+    ["Susanna Mälkki, Frankfurt Radio Symphony", "iXU8EXL7a_4"],
+    ["Yan Pascal Tortelier, Iceland Symphony Orchestra", "Z6iNaFWV3tc"]
+])
+
+let sousaStarsAndStripes = Composition(id: 29, composer: "John Philip Sousa", composerLast: "Sousa", name: "The Stars and Stripes Forever", date: "1896", era: "Romantic", genre: "March", excerpts: [
+    Excerpt(id: 120, description: "Excerpt 1", measures: "mm. 1 - 20", pictures: [["Euphonium", "1132"], ["Tuba", "1133"]]),
+    Excerpt(id: 121, description: "Excerpt 2", measures: "mm. 20 - 37", pictures: [["Euphonium", "1176"], ["Tuba", "1177"]]),
+    Excerpt(id: 122, description: "Excerpt 3", measures: "mm. 85 - 110", pictures: [["Euphonium", "1134"], ["Tuba", "1135"]])
+], mutes: "", videos: [
+    //TODO: YouTube for Stars and Stripes
+    ["", ""]
+])
+
+let straussAlsoSprach = Composition(id: 30, composer: "Richard Strauss", composerLast: "Strauss", name: "Also sprach Zarathustra", date: "1896", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 123, description: "Excerpt 1", measures: "[6] - 6 mm. after [6]", pictures: [["Tuba 1", "1136"], ["Tuba 2", "1137"]]),
+    Excerpt(id: 124, description: "Excerpt 2", measures: "5 mm. after [16] - 3 mm. before [17]", pictures: [["Tuba 1", "1138"], ["Tuba 2", "1139"]]),
+    Excerpt(id: 125, description: "Excerpt 3", measures: "Ziemlich langsam after [17] - 8 mm. after Ziemlich langsam", pictures: [["Tuba 1", "1140"], ["Tuba 2", "1141"]]),
+    Excerpt(id: 126, description: "Excerpt 4", measures: "12 mm. before [43] - 5 mm. before [43]", pictures: [["Tuba 1", "1142"], ["Tuba 2", "1143"]]),
+    Excerpt(id: 127, description: "Excerpt 5", measures: "10 mm. before [46] - 1 mm. before [46]", pictures: [["Tuba 1", "1144"]]),
+    Excerpt(id: 128, description: "Excerpt 6", measures: "6 mm. before [49] - 5 mm. before [51]", pictures: [["Tuba 1", "1145"], ["Tuba 2", "1146"]])
+], mutes: "", videos: [
+    ["Andris Nelsons, Berliner Philharmoniker", "xJoYv6A-UOU"],
+    ["Georg Solti, Chicago Symphony Orchestra", "IFPwm0e_K98"],
+    ["Giuseppe Sinopoli, Staatskapelle Dresden", "LpNRBublNr0"],
+    ["Gustavo Dudamel, Vienna Philharmonic Orchestra", "ETveS23djXM"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra (With Score)", "c8r_pZoaZf0"],
+    ["Herbert von Karajan, Vienna Philharmonic", "h3eEHZCahVU"],
+    ["Jonathan Nott, Gustav Mahler Youth Orchestra", "6RdZ7rO_cr0"],
+    ["Mariss Jansons, Royal Concertgebouw Orchestra", "D4d88IgvhK4"],
+    ["Mariss Jansons, Symphonieorchester des Bayerischen Rundfunks", "hC-PA0YGzK0"]
+])
+
+let straussDeathAndTransfiguration = Composition(id: 31, composer: "Richard Strauss", composerLast: "Strauss", name: "Death and Transfiguration", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 129, description: "Excerpt 1", measures: "4 mm. before [V] - 3 mm. before [W] ", pictures: [["Tuba", "1147"]]),
+    Excerpt(id: 130, description: "Excerpt 2", measures: "5 mm. before [Z] - 8 mm. after [Aa] ", pictures: [["Tuba", "1148"]])
+], mutes: "", videos: [
+    ["Alexis Hauser, McGill Symphony Orchestra", "Pd_GmPLPpRg"],
+    ["Arturo Toscanini, NBC Orchestra (With Score)", "L3bD7g3mp_Y"],
+    ["David Zinman, Tonhalle Orchestra Zürich (With Score)", "6hfQpaePuxo"],
+    ["David Zinman, Zurich Tonhalle Orchestra", "3D5Up1aYJJs"],
+    ["George Szell, Cleveland Orchestra", "4K3E1wZWSn0"],
+    ["George Szell, Cleveland Orchestra", "jHiNvJr-OxY"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "4f92pYZYGfc"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "W6M3NdqyXNc"],
+    ["Jan Latham-Koenig, Symfonieorkest Vlaanderen", "mu2M67IQ68Q"],
+    ["Mikko Franck, Orchestre Philharmonique de Radio France", "umfttWN5xYo"]
+])
+
+let straussDonJuan = Composition(id: 32, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1888", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 131, description: "Excerpt 1", measures: "[P] - 8 mm. after [P] ", pictures: [["Tuba", "1149"]]),
+    Excerpt(id: 132, description: "Excerpt 2", measures: "[S] - 2 mm. before [U] ", pictures: [["Tuba", "1150"]])
+], mutes: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "XG4uBRBMdzY"],
+    ["Georg Solti, Chicago Symphony Orchestra", "_um5yLJx-RM"],
+    ["Herbert von Karajan, Osaka Philharmonic Orchestra", "F_V5KhUxWG8"],
+    ["Thomas Schippers, Cincinnati Symphony Orchestra (With Score)", "8woshq-F21s"],
+    ["Wolfgang Sawallisch, Philadelphia Orchestra", "KP89c9KfetA"]
+])
+
+let straussDonQuixote = Composition(id: 33, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 133, description: "Excerpt 1", measures: "Introduction, [3] - 6 mm. after [3] ", pictures: [["Tenor Tuba in B♭", "1151"], ["Tuba", "1152"]]),
+    Excerpt(id: 134, description: "Excerpt 2", measures: "Introduction, 1 mm. before [9] - 6 mm. after [9] ", pictures: [["Tenor Tuba in B♭", "1153"], ["Tuba", "1154"]]),
+    Excerpt(id: 135, description: "Excerpt 3", measures: "[14] - [15]", pictures: [["Tenor Tuba in B♭", "1155"]]),
+    Excerpt(id: 136, description: "Excerpt 4", measures: "[46] - 6 mm. after [47]", pictures: [["Tenor Tuba in B♭", "1156"], ["Tuba", "1157"]]),
+    Excerpt(id: 137, description: "Excerpt 5", measures: "4 mm. before [62] - 4 mm. after [62] ", pictures: [["Tenor Tuba in B♭", "1158"], ["Tuba", "1159"]])
+], mutes: "", videos: [
+    ["Bernard Haitink, Symphonieorchester des Bayerischen Rundfunks", "_u5Zq769TJ4"],
+    ["Dennis Russell Davies, Orquesta Sinfónica de Galicia", "Bo7KAGhrrIs"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "_6P1WHXKAlk"],
+    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunks", "-7EwD2Vz8fw"],
+    ["George Pehlivanian, Orchestra dell'Accademia Nazionale di Santa Cecilia (With Score)", "5PvCGu2Ue0U"],
+    ["Seiji Ozawa, Boston Symphony Orchestra", "Un6zfgAJi8I"],
+    ["Wolfgang Sawallisch, NHK Symphony", "dJNEuvfeshg"]
+])
+
+let straussHeldenleben = Composition(id: 34, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 138, description: "Excerpt 1", measures: "4 mm. after [3] - [4]", pictures: [["Tenor Tuba in B♭", "1160"]]),
+    Excerpt(id: 139, description: "Excerpt 2", measures: "[8] - 6 mm. after [8] ", pictures: [["Tenor Tuba in B♭", "1161"], ["Tuba", "1162"]]),
+    Excerpt(id: 140, description: "Excerpt 3", measures: "2 mm. before [14] - 2 mm. after [14]", pictures: [["Tenor Tuba in B♭", "1163"], ["Tuba", "1164"]]),
+    Excerpt(id: 141, description: "Excerpt 4", measures: "2 mm. before [58] - [66] ", pictures: [["Tenor Tuba in B♭", "1165"], ["Tuba", "1166"]]),
+    Excerpt(id: 142, description: "Excerpt 5", measures: "1 mm. before [74] - 2 mm. after [75] ", pictures: [["Tenor Tuba in B♭", "1167"], ["Tuba", "1168"]]),
+    Excerpt(id: 143, description: "Excerpt 6", measures: "[79] - 4 mm. after [79]", pictures: [["Tenor Tuba in B♭", "1169"], ["Tuba", "1170"]])
+], mutes: "", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra (With Score)", "mE-mZUEXWsg"],
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "Us1jfC7bMpA"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "nu5AXJGmkJk"],
+    ["Manfred Honeck, Pittsburgh Symphony Orchestra", "NGlzlNlnw_w"],
+    ["Mariss Jansons, Symphonie-Orchestrer des Bayerischen Rundfunks", "_2-dLoWorUs"],
+    ["Valery Gergiev, Munich Philharmonic Orchestra", "m-aaCruKsLI"],
+    // Masterclasses
+    ["Southeast Trombone Symposium", "YqBPA00DBIU"]
+])
+
+let straussEulenspiegel = Composition(id: 35, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegel's Merry Pranks", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 144, description: "Excerpt 1", measures: "[13] - 1 mm. before [14]", pictures: [["Tuba", "1171"]]),
+    Excerpt(id: 145, description: "Excerpt 2", measures: "8 mm. before [19] - 16 mm. after [19]", pictures: [["Tuba", "1172"]]),
+    Excerpt(id: 146, description: "Excerpt 3", measures: "[25] - 5 mm. after [25]", pictures: [["Tuba", "1173"]]),
+    Excerpt(id: 147, description: "Excerpt 4", measures: "7 mm. before [37] - 4 mm. before [38]", pictures: [["Tuba", "1174"]]),
+    Excerpt(id: 148, description: "Excerpt 5", measures: "2 mm. before [40] - 9 mm. after [40]", pictures: [["Tuba", "1175"]])
+], mutes: "", videos: [
+    ["Christoph von Dohnányi, NDR Elbphilharmonie Orchester", "EMcQQFWAnA0"],
+    ["Georg Solti, Wiener Philharmoniker", "ZpA47nVfgBY"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "99qWgSItaNQ"],
+    ["Leonard Bernstein, New York Philharmonic Orchestra (With Score)", "1zbCfP9wGt4"],
+    ["Lorin Maazel, Symphonieorchester des Bayerischen Rundfunk (With Score)", "QV5r9KG1eyc"],
+    ["Richard Strauss, Vienna Philharmonic", "IouFZBgEG3s"],
+    ["Masahiko Tanaka, Waseda Symphony Orchestra", "S7O9Oa22nsQ"],
+    ["Zubin Mehta, New York Philharmonic", "ZU556MvQN6c"]
+])
+//1176, 1177 used
+
+let stravinskyRite = Composition(id: 36, composer: <#T##String#>, composerLast: <#T##String#>, name: <#T##String#>, date: <#T##String#>, era: <#T##String#>, genre: <#T##String#>, excerpts: <#T##[Excerpt]#>, mutes: <#T##String#>, videos: <#T##[[String]]#>)
 
 let pictures = [["Tuba", ""]]
-let pictures2 = [["Ophicleïde", ""]]
+let pictures2 = [["Tenor Tuba in B♭", ""], ["Tuba", ""]]
 
 /*
 X Berlioz Damnation of Faust
@@ -442,15 +594,15 @@ X Mahler Symphony No. 9
 X Mendelssohn A Midsummernight’s Dream
 X Mussorgsky Night on Bald Mountain
  Mussorgsky/Ravel: Pictures at an Exhibition // NOT PD(!)
- Respighi Fountains of Rome
- Rimsky-Korsakov Scheherazade
- Sibelius Symphony 2
- Sibelius Symphony No. 1
- Sousa The Stars and Stripes Forever
- Strauss Also sprach Zarathustra
- Strauss Ein Heldenleben
- Strauss Till Elenspiegels lustige Streiche
- Stravinsky Petrouchka
+X Respighi Fountains of Rome
+X Rimsky-Korsakov Scheherazade
+X Sibelius Symphony 2
+X Sibelius Symphony No. 1
+X Sousa The Stars and Stripes Forever
+X Strauss Also sprach Zarathustra
+X Strauss Ein Heldenleben
+X Strauss Till Elenspiegels lustige Streiche
+ Stravinsky Rite of Spring
  Tchaikovsky Romeo and Juliet
  Tchaikovsky Sleeping Beauty
  Tchaikovsky Swan Lake
@@ -504,24 +656,28 @@ let mussorgsky = Composer(id: 9, name: "Modest Mussorgsky", ipa: "moʊˈdɛst m�
 ])
 
 let respighi = Composer(id: 10, name: "Ottorino Respighi", ipa: "ottoˈriːno reˈspiːɡi", image: 2009, country: "Italy", dates: "1879-1936", bio: "Respighi was an Italian violinist, composer, and musicologist. Hist interest in musicology led to the composition of his three most famous compositions: \"Fountains of Rome\", \"Pines of Rome\", and \"Roman Festivals\"", excerpts: [
+    respighiFountains
 ])
 
 let rimskyKorsakov = Composer(id: 11, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2010, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
+    rimskyKorsakovScheherazade
 ])
 
 let sibelius = Composer(id: 12, name: "Jean Sibelius", ipa: "ʒɑn  sɪˈbeɪ li əs", image: 2011, country: "Finland", dates: "1865-1957", bio: "Sibelius is the most well known composer to come out of Finland. His music is credited with helping Finland to develop a national identity, and his most famous work \"Finlandia\" is known as Finland's unofficial national anthem. Sibelius mysteriously stopped composing in the last thirty years of his life, retiring to a quite life in Järvenpää.", excerpts: [
+    sibelius1, sibelius2
 ])
 
 let sousa = Composer(id: 13, name: "John Philip Sousa", ipa: "dʒɒn ˈfɪl ɪp 'su zə", image: 2012, country: "The United States of America", dates: "1854–1932", bio: "John Philip Sousa was an American composer of the late romantic era famous for his American military marches. He is known as \"The March King\". Sousa spent much of his career conducting The United States Marine Band, before starting his own band in 1892. Sousa also aided in the creation of the Sousaphone, a large brass instrument similar to the Helicon and Tuba.", excerpts: [
+    sousaStarsAndStripes
 ])
 
 
 let rStrauss = Composer(id: 14, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2013, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
-
+    straussAlsoSprach, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussEulenspiegel
 ])
 
 let stravinsky = Composer(id: 15, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2014, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
-    
+    stravinskyRite
 ])
 
 let tchaikovsky = Composer(id: 16, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2015, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
@@ -547,7 +703,7 @@ class TubaContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets, mahler1, mahler2, mahler3, mahler5, mahler6, mahler9, mendelssohnMidsummer, mussorgskyNightBald
+        berliozBenvenuto, berliozFaust, berliozKingLear, berliozLeCorsaire, berliozRomeo, berliozSymphonie, brahmsAcademic, brahms2, brahmsTragic, bruckner4, bruckner7, bruckner8, bruckner9, franckD, holstFirstSuite, holstPlanets, mahler1, mahler2, mahler3, mahler5, mahler6, mahler9, mendelssohnMidsummer, mussorgskyNightBald, respighiFountains, rimskyKorsakovScheherazade, sibelius1, sibelius2, sousaStarsAndStripes, straussAlsoSprach, straussDeathAndTransfiguration, straussDonJuan, straussDonQuixote, straussHeldenleben, straussEulenspiegel, stravinskyRite
     ]
     
     /**
