@@ -50,7 +50,7 @@ struct RandomCompositionView: View {
 
 
                     Divider()
-                        .background(Color.red)
+                        .background(Color.green)
                         .padding(.horizontal)
                 }
                 
@@ -89,8 +89,11 @@ struct RandomCompositionView: View {
             self.generateExcerpt()
         }
         .navigationBarTitle("Random Excerpt", displayMode: .inline)
-        
-        
+        .navigationBarItems(trailing: Button(action: {
+            self.generateExcerpt()
+        }) {
+            Text("Randomize")
+        })
     }
     
     func generateExcerpt() {
