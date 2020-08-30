@@ -8,10 +8,23 @@
 
 import SwiftUI
 
+/**
+ A list of all the compositions in the app. When each excerpt is clicked, another view is opened with the details about that excerpt. Favorites are denoted with hearts, and there is a randomize button in the navigation bar.
+ */
 struct CompositionListView: View {
+    /**
+     User selected favorites. Excerpts in this collection will have a heart next to their name.
+     */
+    @EnvironmentObject var favorites: Favorites
     
+    /**
+     The list of all of the excerpts.
+     */
     var model = TubaContentModel().excerpts
     
+    /**
+     The user interface
+     */
     var body: some View {
         NavigationView {
             List {
@@ -22,6 +35,12 @@ struct CompositionListView: View {
                                 .bold()
                             Text(item.name)
                             Spacer()
+                            if self.favorites.contains(String(item.id)) {
+                                Spacer()
+                                Image(systemName: "heart.fill")
+                                    .accessibility(label: Text("This is a favorite exercise"))
+                                    .foregroundColor(.red)
+                            }
                         }
                     }
                 }

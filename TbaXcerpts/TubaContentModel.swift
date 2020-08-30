@@ -145,7 +145,7 @@ let berliozSymphonie = Composition(id: 6, composer: "Hector Berlioz", composerLa
 ], mutes: "No", videos: [
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
     ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc"],
     // Masterclasses
     ["Gene Pokorny", "cVhYO0TZ5Bw"],
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"]
@@ -485,7 +485,8 @@ let mussorgskyNightBald = Composition(id: 24, composer: "Modest Mussorgsky", com
 ])
 
 let respighiFountains = Composition(id: 25, composer: "Ottorino Respighi", composerLast: "Respighi", name: "Fontane di Roma", date: "1916", era: "Romantic", genre: "Symphonic Poem", excerpts: [
-    Excerpt(id: 116, description: "Excerpt 1", measures: "1 mm. before [11] - 4 mm. after [16] ", pictures: [["Tuba", "1128"]])
+    // Removed due to copyright
+    Excerpt(id: 116, description: "Excerpt 1", measures: "1 mm. before [11] - 4 mm. after [16] ", pictures: [["Tuba", /*"1128"*/"none"]])
 ], mutes: "No", videos: [
     ["Alan Gilbert, New York Philharmonic", "kk7LTvjdv1M"],
     ["Arturo Toscanini, Maazel Filarmonica", "u6bRHpcxJcM"],
@@ -990,4 +991,79 @@ class TubaContentModel: ObservableObject {
     ]
 }
 
+/**
+ A Model for storing favorite compositions IDs as strings in an encapsulated list. Data is stored internally on every change.
+ */
+class Favorites: ObservableObject {
+    // the actual composition the user has favorited
+    private var compositionIDs: [String]
+
+    // the key we're using to read/write in UserDefaults
+    private let saveKey = "Favorites"
+
+    init() {
+        // load our saved data
+        self.compositionIDs = UserDefaults.standard.stringArray(forKey: saveKey) ?? [String]()
+    }
+
+    // returns true if our set contains this composition
+    func contains(_ image: String) -> Bool {
+        compositionIDs.contains(image)
+    }
+
+    // adds the resort to our set, updates all views, and saves the change
+    func add(_ image: String) {
+        objectWillChange.send()
+        compositionIDs.append(image)
+        save()
+    }
+
+    // removes the composition from our set, updates all views, and saves the change
+    func remove(_ image: String) {
+        objectWillChange.send()
+        var counter = 0
+        var removeIndex = 0
+        while counter < compositionIDs.count {
+            if compositionIDs[counter] == image {
+                removeIndex = counter
+            }
+            counter += 1
+        }
+        compositionIDs.remove(at: removeIndex)
+        save()
+    }
+    
+    func removeAll() {
+        objectWillChange.send()
+        compositionIDs.removeAll()
+        save()
+    }
+
+    func save() {
+        // write out our data
+        UserDefaults.standard.set(self.compositionIDs, forKey: saveKey)
+    }
+}
+
+/**
+ A model for saving user settings. Data is readable and writeable directly to memory from accessing and setting published variables.
+ */
+class settingsModel: ObservableObject {
+    /**
+     A static list to display names of random options in the Picker.
+     */
+    var randomOptions = ["All", "Favorites"]
+    
+    /**
+     Selected Randoms is the user's choice for selecting whether only favorite excerpts or all excerpts will show in the RandomCompositionView. If the user has not chosen, it will default to 0 (All excerpts).
+     <p>
+     Note: Data will be saved and read directly from memory on read and write of this variable.
+     */
+    @Published var selectedRandoms: Int = UserDefaults.standard.integer(forKey: "Randoms") {
+        didSet {
+            objectWillChange.send()
+            UserDefaults.standard.set(self.selectedRandoms, forKey: "Randoms")
+        }
+    }
+}
 

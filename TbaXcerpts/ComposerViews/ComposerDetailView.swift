@@ -8,9 +8,23 @@
 
 import SwiftUI
 
+/**
+ Detailed view of an individual composer in the app, also showing a list of all of their compositions.aaw
+ */
 struct ComposerDetailView: View {
+    /**
+     The user selected favorites of the app.
+     */
+    @EnvironmentObject var favorites: Favorites
+    
+    /**
+     The current composer being displayed.
+     */
     var composer: Composer
     
+    /**
+     The user interface
+     */
     var body: some View {
         ScrollView(.vertical) {
             VStack {
@@ -26,14 +40,13 @@ struct ComposerDetailView: View {
                             .font(.headline)
                         + Text(composer.country)
                     }
-                        .padding(.bottom)
-                    
+                    .padding(.bottom)
                     Group {
                         Text("Dates: ")
                             .font(.headline)
                         + Text(composer.dates)
                     }
-                        .padding(.bottom)
+                    .padding(.bottom)
 
                     Text("About:")
                         .font(.headline)
@@ -41,10 +54,9 @@ struct ComposerDetailView: View {
                     Text(composer.bio)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                
             }
-                .padding(.horizontal, 40)
-                .padding(.bottom, 20)
+            .padding(.horizontal, 40)
+            .padding(.bottom, 20)
             VStack {
                 ForEach(composer.excerpts) { item in
                     VStack {
@@ -53,10 +65,13 @@ struct ComposerDetailView: View {
                         NavigationLink(destination: CompositionDetailView(composition: item)) {
                             HStack {
                                 Text(item.name)
-                                Rectangle()
-                                    .opacity(0.0000000000000001)
-                                    .frame(minWidth: 0, maxHeight: 15)
-                                    .scaledToFill()
+                                Spacer()
+                                if self.favorites.contains(String(item.id)) {
+                                    Spacer()
+                                    Image(systemName: "heart.fill")
+                                        .accessibility(label: Text("This is a favorite exercise"))
+                                        .foregroundColor(.red)
+                                }
                                 Image(systemName: "chevron.right")
                                     .foregroundColor(.gray)
                             }
@@ -64,9 +79,8 @@ struct ComposerDetailView: View {
                             .padding(.bottom, 3)
                             .padding(.horizontal)
                         }
-                    .buttonStyle(PlainButtonStyle())
+                        .buttonStyle(PlainButtonStyle())
                     }
-                        
                 }
                 Divider()
                     .padding(.leading)
@@ -74,7 +88,8 @@ struct ComposerDetailView: View {
         }
         .navigationBarTitle(
             Text(composer.name),
-            displayMode: .inline)
+            displayMode: .inline
+        )
     }
 }
 

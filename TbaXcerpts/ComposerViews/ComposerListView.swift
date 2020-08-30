@@ -8,10 +8,18 @@
 
 import SwiftUI
 
+/**
+ A listing of all of the composers in teh app. On click opens ComposerDetailView with information about the selected composer.
+ */
 struct ComposerListView: View {
-    
+    /**
+     The collected list of all the composers in the app.
+     */
     var model = TubaContentModel().composers
     
+    /**
+     The user interface
+     */
     var body: some View {
         NavigationView {
             List {
@@ -21,9 +29,9 @@ struct ComposerListView: View {
                     }
                 }
             }
-        .navigationBarTitle("Composers")
+            .navigationBarTitle("Composers")
         }
-    .navigationViewStyle(StackNavigationViewStyle())
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
