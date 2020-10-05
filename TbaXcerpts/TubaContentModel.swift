@@ -143,9 +143,13 @@ let berliozSymphonie = Composition(id: 6, composer: "Hector Berlioz", composerLa
     Excerpt(id: 18, description: "Excerpt 5", measures: "Mov. V, 6 mm. after [66] - 14 mm. before [69]", pictures: [["Ophicleïde 1", "1018"], ["Ophicleïde 2", "1019"]]),
     Excerpt(id: 19, description: "Excerpt 6", measures: "Mov. V, [84] - End", pictures: [["Ophicleïde 1", "1020"], ["Ophicleïde 2", "1021"]])
 ], mutes: "No", videos: [
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony Orchestra", "AgXW-57UDMc"],
     ["정명훈 (Chung Myung-Whun)", "5HgqPpjIH5c"],
-    ["Leopold Stokowski, New Philharmonia Orchestra", "ewoAW-Zyuj8"],
-    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc"],
+    ["Gustavo Dudamel, Orchestre philharmonique de Radio France", "HDHPgqv4hsw"],
+    ["Herbert von Karajan, Berlin Philharmonic Orchestra", "sK4dz6Gbcdk"],
+    ["Leonard Bernstein, Orchestre National de France", "rQXtC6B3CKQ"],
+    ["Leopold Stokowski, New Philharmonia Orchestra (With Score)", "ewoAW-Zyuj8"],
+    ["Mariss Jansons, Bavarian Radio Symphony Orchestra", "yK6iAxe0oEc?t=284"],
     // Masterclasses
     ["Gene Pokorny", "cVhYO0TZ5Bw"],
     ["Southeast Trombone Symposium", "oYSnGq5wNxU"]
